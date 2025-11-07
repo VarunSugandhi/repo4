@@ -81,7 +81,7 @@ Clicking a video opens it in a new tab for instant learning.
 ### Steps
 ```bash
 # 1. Clone the repository
-git clone https://github.com/VarunSugandhi/NetherWatchers_70
+git clone https://github.com/VarunSugandhi/NetherWatchers_70.git
 
 # 2. Navigate to the directory
 cd NetherWatchers_70
