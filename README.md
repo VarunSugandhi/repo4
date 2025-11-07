@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
+# 🧠 Synapse — Your AI Learning Companion
 
-## Project info
+### Built by Team **Nether Watchers** | Team ID: 70
 
-**URL**: https://lovable.dev/projects/89aceccf-ad98-451a-a1a9-e03edc2f7aad
+---
 
-## How can I edit this code?
+## 👥 Team Details
 
-There are several ways of editing your application.
+### Team Lead  
+**Name:** Varun S
+**Domain:** Educatiion P2
+**Email:** [varunsugandhi0@gmail.com](mailto:varunsugandhi0@gmail.com)
 
-**Use Lovable**
+### Team Members  
+- Abhishek Jain  
+- Ankit Gowda M C
+- Anusha A T
+- S Haripriya  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/89aceccf-ad98-451a-a1a9-e03edc2f7aad) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Project Overview
 
-**Use your preferred IDE**
+**Synapse** is an AI-powered education platform designed to make learning *interactive, intelligent, and human-like*.  
+It converts any document or topic into a multimodal study experience — combining **summaries, podcasts, mind maps, flashcards, and YouTube lectures** — all powered by advanced AI models.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🌟 Key Features
 
-Follow these steps:
+### 🧾 Report Generator
+Generates a well-structured academic report from uploaded documents or searched topics — including abstract, problem statement, and references.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🎧 Audio Overview (AI Podcast)
+Creates an engaging, conversational **podcast between two AIs** — where one asks questions and the other explains concepts using research context.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 🎬 Video Overview
+Auto-generates a short visual explainer video from the topic’s summary with narration and highlights.
 
-# Step 3: Install the necessary dependencies.
+### 🧠 Mind Map Generator
+Converts summaries or selected YouTube lecture links into **interactive visual mind maps** that help learners grasp relationships between ideas.
+
+### 🧩 Flashcards
+Creates concise, Q&A-based flashcards from the summary content to support quick revision and retention.
+
+### 🎓 Exam Prepometer *(New Feature)*
+A personalized exam preparation module that allows users to:
+1. Enter their **grade** and **examination board**  
+2. View all **subjects and chapters**  
+3. Access **previous year question papers**  
+4. Open papers in **Notebook Mode** to:
+   - Write or generate AI-assisted answers  
+   - Access the same tools (report, podcast, mind map, flashcards) within the paper interface  
+5. Track preparation progress with a live **Prepometer Score**
+
+### 🎥 YouTube Research Panel
+Displays verified **YouTube educational videos** related to the user’s search or uploaded content.  
+Clicking a video opens it in a new tab for instant learning.
+
+---
+
+## 🧩 AI Stack
+
+| Function | Technology Used |
+|-----------|----------------|
+| Text Analysis, Summaries, Reports | **OpenRouter AI** |
+| Document Understanding, Research, Video | **Cerebras AI** |
+| Text-to-Speech / Podcast / Flashcards | **Fireworks AI** |
+| Video Lectures | **YouTube Data API** |
+| Mind Maps | **ReactFlow / Mermaid.js** |
+| Frontend | **React + TypeScript + Tailwind + shadcn-ui + Vite** |
+| Backend | **Node.js + Express + Supabase/MongoDB** |
+
+---
+
+## 💻 Development & Setup
+
+### Using Local Development
+
+#### Prerequisites
+- Node.js and npm installed ([via nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
+
+#### Steps
+```bash
+# 1. Clone the repository
+git clone https://github.com/VarunSugandhi/NetherWatchers_70
+
+# 2. Navigate to the directory
+cd NetherWatchers_70
+
+# 3. Install dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Start the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/89aceccf-ad98-451a-a1a9-e03edc2f7aad) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
